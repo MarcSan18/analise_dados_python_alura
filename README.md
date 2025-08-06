@@ -2,6 +2,8 @@
 
 Análise Exploratoria de Salários em Cargos de Dados.
 
+Análise de Salários em Cargos de Dados
+
 Este projeto realiza uma análise exploratória de um dataset contendo informações sobre salários em diversas áreas de dados. O objetivo é entender as tendências de salários, os fatores que os influenciam (como nível de experiência, tipo de emprego, localização, etc.) e fornecer insights sobre o mercado de trabalho em dados.
 
 Dados
@@ -26,6 +28,8 @@ Exploração Inicial: Foram verificadas as primeiras linhas do DataFrame (df.hea
 Tradução de Colunas: Os nomes das colunas foram traduzidos para português brasileiro.
 Tradução de Categorias: As categorias das colunas senioridade, contrato, tamanho_empresa e remoto foram traduzidas para português.
 Verificação de Valores: A distribuição dos valores em algumas colunas categóricas foi verificada (.value_counts()).
+Tratamento de Valores Ausentes: As linhas com valores ausentes na coluna 'ano' foram removidas, criando um novo DataFrame df_limpo.
+Conversão de Tipo de Dado: A coluna 'ano' no DataFrame df_limpo foi convertida para o tipo inteiro.
 Próximos Passos
 Algumas sugestões para continuar a análise incluem:
 
