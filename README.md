@@ -2,7 +2,6 @@
 
 Análise Exploratoria de Salários em Cargos de Dados.
 
-Análise de Salários em Cargos de Dados
 
 Este projeto realiza uma análise exploratória de um dataset contendo informações sobre salários em diversas áreas de dados. O objetivo é entender as tendências de salários, os fatores que os influenciam (como nível de experiência, tipo de emprego, localização, etc.) e fornecer insights sobre o mercado de trabalho em dados.
 
